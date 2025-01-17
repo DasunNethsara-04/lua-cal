@@ -1,43 +1,31 @@
 --- Add two numbers
----
---- @params num1 Number
----
---- @params num2 Number
----
---- @returns Number
+--- @param num1 Number
+--- @param num2 Number
+--- @return Number
 function Add(num1, num2)
     return num1 + num2
 end
 
 --- Subtract two numbers
----
---- @params num1 Number
----
---- @params num2 Number
----
---- @returns Number
+--- @param num1 Number
+--- @param num2 Number
+--- @return Number
 function Subtract(num1, num2)
     return num1 - num2
 end
 
 --- Multiply two numbers
----
---- @params num1 Number
----
---- @params num2 Number
----
---- @returns Number
+--- @param num1 Number
+--- @param num2 Number
+--- @return Number
 function Multiply(num1, num2)
     return num1 * num2
 end
 
 --- Divide two numbers
----
---- @params num1 Number
----
---- @params num2 Number
----
---- @returns Number|Error
+--- @param num1 Number
+--- @param num2 Number
+--- @return Number|Error
 function Divide(num1, num2)
     if num2 == 0 then
         error("Divide by 0 is not allowed!")
